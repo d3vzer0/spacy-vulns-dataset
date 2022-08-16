@@ -2,6 +2,7 @@
 **/tok2vec/
 **/vocab/
 cvebackend/latest-model/
+cvebackend/checkpoints/
 tokenizer
 
 # Byte-compiled / optimized / DLL files
