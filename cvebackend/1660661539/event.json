@@ -1,0 +1,134 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660661539",
+  "data": {
+    "annotation": {
+      "id": 74,
+      "result": [],
+      "was_cancelled": true,
+      "ground_truth": false,
+      "created_at": "2022-08-16T14:52:19.926718Z",
+      "updated_at": "2022-08-16T14:52:19.926745Z",
+      "lead_time": 2.843,
+      "prediction": {},
+      "result_count": 0,
+      "task": 74,
+      "completed_by": 2,
+      "parent_prediction": null,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 43,
+      "total_predictions_number": 0,
+      "total_annotations_number": 43,
+      "num_tasks_with_annotations": 43,
+      "useful_annotation_number": 43,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 31,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660660519",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 74,
+      "data": {
+        "cve": "CVE-2021-22299",
+        "description": "There is a local privilege escalation vulnerability in some Huawei products. A local, authenticated attacker could craft specific commands to exploit this vulnerability. Successful exploitation may cause the attacker to obtain a higher privilege. Affected product versions include: ManageOne versions 6.5.0,6.5.0.SPC100.B210,6.5.1.1.B010,6.5.1.1.B020,6.5.1.1.B030,6.5.1.1.B040,6.5.1.SPC100.B050,6.5.1.SPC101.B010,6.5.1.SPC101.B040,6.5.1.SPC200,6.5.1.SPC200.B010,6.5.1.SPC200.B030,6.5.1.SPC200.B040,6.5.1.SPC200.B050,6.5.1.SPC200.B060,6.5.1.SPC200.B070,6.5.1RC1.B060,6.5.1RC2.B020,6.5.1RC2.B030,6.5.1RC2.B040,6.5.1RC2.B050,6.5.1RC2.B060,6.5.1RC2.B070,6.5.1RC2.B080,6.5.1RC2.B090,6.5.RC2.B050,8.0.0,8.0.0-LCND81,8.0.0.SPC100,8.0.1,8.0.RC2,8.0.RC3,8.0.RC3.B041,8.0.RC3.SPC100; NFV_FusionSphere versions 6.5.1.SPC23,8.0.0.SPC12; SMC2.0 versions V600R019C00,V600R019C10; iMaster MAE-M versions MAE-TOOL(FusionSphereBasicTemplate_Euler_X86)V100R020C10SPC220."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.612747Z",
+      "updated_at": "2022-08-16T14:52:19.959474Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "inner_id": 74,
+      "total_annotations": 0,
+      "cancelled_annotations": 1,
+      "total_predictions": 0,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

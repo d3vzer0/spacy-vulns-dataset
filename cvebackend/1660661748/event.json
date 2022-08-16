@@ -1,0 +1,134 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660661748",
+  "data": {
+    "annotation": {
+      "id": 94,
+      "result": [],
+      "was_cancelled": true,
+      "ground_truth": false,
+      "created_at": "2022-08-16T14:55:47.975583Z",
+      "updated_at": "2022-08-16T14:55:47.975609Z",
+      "lead_time": 2.26,
+      "prediction": {},
+      "result_count": 0,
+      "task": 94,
+      "completed_by": 2,
+      "parent_prediction": null,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 57,
+      "total_predictions_number": 0,
+      "total_annotations_number": 57,
+      "num_tasks_with_annotations": 57,
+      "useful_annotation_number": 57,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 37,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660660519",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 94,
+      "data": {
+        "cve": "CVE-2021-21276",
+        "description": "Polr is an open source URL shortener. in Polr before version 2.3.0, a vulnerability in the setup process allows attackers to gain admin access to site instances, even if they do not possess an existing account. This vulnerability exists regardless of users' settings. If an attacker crafts a request with specific cookie headers to the /setup/finish endpoint, they may be able to obtain admin privileges on the instance. This is caused by a loose comparison (==) in SetupController that is susceptible to attack. The project has been patched to ensure that a strict comparison (===) is used to verify the setup key, and that /setup/finish verifies that no users table exists before performing any migrations or provisioning any new accounts. This is fixed in version 2.3.0. Users can patch this vulnerability without upgrading by adding abort(404) to the very first line of finishSetup in SetupController.php."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.613727Z",
+      "updated_at": "2022-08-16T14:55:48.015229Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "inner_id": 94,
+      "total_annotations": 0,
+      "cancelled_annotations": 1,
+      "total_predictions": 0,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

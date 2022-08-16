@@ -1,0 +1,230 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660663660",
+  "data": {
+    "annotation": {
+      "id": 153,
+      "result": [
+        {
+          "value": {
+            "start": 3,
+            "end": 20,
+            "text": "Epson iProjection",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "UiKJDmr2Nf",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 21,
+            "end": 26,
+            "text": "v2.30",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "XdbUNUaGGT",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T15:27:40.529968Z",
+      "updated_at": "2022-08-16T15:27:40.529992Z",
+      "lead_time": 11.114,
+      "prediction": {
+        "id": 74,
+        "model_version": "1660662222",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 20,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 3,
+              "text": "Epson iProjection"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 26,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 21,
+              "text": "v2.30"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 214,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 198,
+              "text": "IOCtl 0x9C402406"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 236,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 219,
+              "text": "IOCtl 0x9C40240A."
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T15:27:29.301489Z",
+        "updated_at": "2022-08-16T15:27:29.301515Z",
+        "task": 153
+      },
+      "result_count": 0,
+      "task": 153,
+      "completed_by": 2,
+      "parent_prediction": 74,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 79,
+      "total_predictions_number": 74,
+      "total_annotations_number": 79,
+      "num_tasks_with_annotations": 79,
+      "useful_annotation_number": 79,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 74,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660662222",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 153,
+      "data": {
+        "cve": "CVE-2020-9453",
+        "description": "In Epson iProjection v2.30, the driver file EMP_MPAU.sys allows local users to cause a denial of service (BSOD) or possibly have unspecified other impact because of not validating input values from IOCtl 0x9C402406 and IOCtl 0x9C40240A. (0x9C402402 has only a NULL pointer dereference.) This affects \\Device\\EMPMPAUIO and \\DosDevices\\EMPMPAU."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.621020Z",
+      "updated_at": "2022-08-16T15:27:40.562347Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 153,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

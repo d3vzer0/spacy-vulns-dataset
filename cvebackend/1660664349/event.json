@@ -1,0 +1,583 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660664349",
+  "data": {
+    "annotation": {
+      "id": 195,
+      "result": [
+        {
+          "value": {
+            "start": 4,
+            "end": 11,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "g5KOaMJPfD",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 811,
+            "end": 817,
+            "text": "1.1.1j",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "wWR7r9Ivck",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 819,
+            "end": 826,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "3id8mXxd05",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 889,
+            "end": 896,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "OdpVeEVmBh",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 897,
+            "end": 902,
+            "text": "1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "fR3s1hYIlQ",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 990,
+            "end": 997,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "vIkEo8vO3U",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 998,
+            "end": 1003,
+            "text": "1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "jejWzCU8ro",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1022,
+            "end": 1028,
+            "text": "1.0.2y",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "OXjp6wzhN7",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1060,
+            "end": 1066,
+            "text": "1.1.1j",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "eLrIjpM9Hu",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1068,
+            "end": 1073,
+            "text": "Fixed",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "ge_96EaBmQ",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1077,
+            "end": 1084,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "Gfhw5X5J-O",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1085,
+            "end": 1091,
+            "text": "1.1.1j",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "0IJxM9GPZK",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1102,
+            "end": 1114,
+            "text": "1.1.1-1.1.1i",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "9WhMTwhfuE",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1134,
+            "end": 1140,
+            "text": "1.0.2y",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "JPDUcvfT75",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1151,
+            "end": 1163,
+            "text": "1.0.2-1.0.2x",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "UXYDx_nQ1M",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1126,
+            "end": 1133,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "TYhG6YBslW",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T15:39:09.105071Z",
+      "updated_at": "2022-08-16T15:39:09.105093Z",
+      "lead_time": 13.481,
+      "prediction": {
+        "id": 116,
+        "model_version": "1660662222",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 11,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 4,
+              "text": "OpenSSL"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 817,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 811,
+              "text": "1.1.1j"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 826,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 819,
+              "text": "OpenSSL"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 896,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 889,
+              "text": "OpenSSL"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 902,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 897,
+              "text": "1.0.2"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 997,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 990,
+              "text": "OpenSSL"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1003,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 998,
+              "text": "1.0.2"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1028,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1022,
+              "text": "1.0.2y"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1066,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1060,
+              "text": "1.1.1j"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1073,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 1068,
+              "text": "Fixed"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1084,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 1077,
+              "text": "OpenSSL"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1091,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1085,
+              "text": "1.1.1j"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1114,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1102,
+              "text": "1.1.1-1.1.1i"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1140,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 1134,
+              "text": "1.0.2y"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1163,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1151,
+              "text": "1.0.2-1.0.2x"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T15:38:55.473255Z",
+        "updated_at": "2022-08-16T15:38:55.473282Z",
+        "task": 194
+      },
+      "result_count": 0,
+      "task": 194,
+      "completed_by": 2,
+      "parent_prediction": 116,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 114,
+      "total_predictions_number": 116,
+      "total_annotations_number": 114,
+      "num_tasks_with_annotations": 114,
+      "useful_annotation_number": 114,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 80,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660662222",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 194,
+      "data": {
+        "cve": "CVE-2021-23841",
+        "description": "The OpenSSL public API function X509_issuer_and_serial_hash() attempts to create a unique hash value based on the issuer and serial number data contained within an X509 certificate. However it fails to correctly handle any errors that may occur while parsing the issuer field (which might occur if the issuer field is maliciously constructed). This may subsequently result in a NULL pointer deref and a crash leading to a potential denial of service attack. The function X509_issuer_and_serial_hash() is never directly called by OpenSSL itself so applications are only vulnerable if they use this function directly and they use it on certificates that may have been obtained from untrusted sources. OpenSSL versions 1.1.1i and below are affected by this issue. Users of these versions should upgrade to OpenSSL 1.1.1j. OpenSSL versions 1.0.2x and below are affected by this issue. However OpenSSL 1.0.2 is out of support and no longer receiving public updates. Premium support customers of OpenSSL 1.0.2 should upgrade to 1.0.2y. Other users should upgrade to 1.1.1j. Fixed in OpenSSL 1.1.1j (Affected 1.1.1-1.1.1i). Fixed in OpenSSL 1.0.2y (Affected 1.0.2-1.0.2x)."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.623180Z",
+      "updated_at": "2022-08-16T15:39:09.141841Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 194,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

@@ -1,3 +1,8 @@
+ner/
+tok2vec/
+vocab/
+tokenizer
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

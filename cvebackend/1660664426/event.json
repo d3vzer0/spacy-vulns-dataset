@@ -1,0 +1,635 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660664426",
+  "data": {
+    "annotation": {
+      "id": 197,
+      "result": [
+        {
+          "value": {
+            "start": 0,
+            "end": 7,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "yMsdxXkbuC",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 8,
+            "end": 13,
+            "text": "1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "oAUTZVZEsq",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1035,
+            "end": 1042,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "5ie3mlMQJn",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1043,
+            "end": 1048,
+            "text": "1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "vBndG5ZSNL",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1070,
+            "end": 1076,
+            "text": "1.0.2s",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "_y7-WFIucP",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1080,
+            "end": 1086,
+            "text": "1.0.2x",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "6Kv5OwjfQ8",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1143,
+            "end": 1148,
+            "text": "1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "vE88ay3lmT",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1401,
+            "end": 1406,
+            "text": "1.1.1",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "xDUFyxmxri",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1668,
+            "end": 1673,
+            "text": "1.1.1",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "a2fqhLQBxz",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1954,
+            "end": 1959,
+            "text": "1.1.1",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "9VWAZoemxP",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 2035,
+            "end": 2040,
+            "text": "1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "fvSaOPzqOA",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 2128,
+            "end": 2135,
+            "text": "OpenSSL",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "nq22D5Gqe4",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 2136,
+            "end": 2141,
+            "text": "1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "hY9D9xH7QO",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 2160,
+            "end": 2166,
+            "text": "1.0.2y",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "lNRJ8Ktggt",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 2198,
+            "end": 2204,
+            "text": "1.1.1j",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "AlOvKcVpR5",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 2223,
+            "end": 2229,
+            "text": "1.0.2y",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "t_Gx6DyZNv",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T15:40:26.548099Z",
+      "updated_at": "2022-08-16T15:40:26.548125Z",
+      "lead_time": 19.38,
+      "prediction": {
+        "id": 118,
+        "model_version": "1660662222",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 7,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 0,
+              "text": "OpenSSL"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 13,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 8,
+              "text": "1.0.2"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1042,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 1035,
+              "text": "OpenSSL"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1048,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1043,
+              "text": "1.0.2"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1076,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1070,
+              "text": "1.0.2s"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1086,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1080,
+              "text": "1.0.2x"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1148,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1143,
+              "text": "1.0.2"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1406,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1401,
+              "text": "1.1.1"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1559,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 1535,
+              "text": "RSA_padding_check_SSLv23"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1673,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1668,
+              "text": "1.1.1"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1725,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 1701,
+              "text": "RSA_padding_check_SSLv23"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1959,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1954,
+              "text": "1.1.1"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 2040,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 2035,
+              "text": "1.0.2"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 2135,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 2128,
+              "text": "OpenSSL"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 2141,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 2136,
+              "text": "1.0.2"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 2166,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 2160,
+              "text": "1.0.2y"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 2204,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 2198,
+              "text": "1.1.1j"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 2211,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 2206,
+              "text": "Fixed"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 2229,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 2223,
+              "text": "1.0.2y"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T15:40:06.955593Z",
+        "updated_at": "2022-08-16T15:40:06.955633Z",
+        "task": 196
+      },
+      "result_count": 0,
+      "task": 196,
+      "completed_by": 2,
+      "parent_prediction": 118,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 116,
+      "total_predictions_number": 118,
+      "total_annotations_number": 116,
+      "num_tasks_with_annotations": 116,
+      "useful_annotation_number": 116,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 80,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660662222",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 196,
+      "data": {
+        "cve": "CVE-2021-23839",
+        "description": "OpenSSL 1.0.2 supports SSLv2. If a client attempts to negotiate SSLv2 with a server that is configured to support both SSLv2 and more recent SSL and TLS versions then a check is made for a version rollback attack when unpadding an RSA signature. Clients that support SSL or TLS versions greater than SSLv2 are supposed to use a special form of padding. A server that supports greater than SSLv2 is supposed to reject connection attempts from a client where this special form of padding is present, because this indicates that a version rollback has occurred (i.e. both client and server support greater than SSLv2, and yet this is the version that is being requested). The implementation of this padding check inverted the logic so that the connection attempt is accepted if the padding is present, and rejected if it is absent. This means that such as server will accept a connection if a version rollback attack has occurred. Further the server will erroneously reject a connection if a normal SSLv2 connection attempt is made. Only OpenSSL 1.0.2 servers from version 1.0.2s to 1.0.2x are affected by this issue. In order to be vulnerable a 1.0.2 server must: 1) have configured SSLv2 support at compile time (this is off by default), 2) have configured SSLv2 support at runtime (this is off by default), 3) have configured SSLv2 ciphersuites (these are not in the default ciphersuite list) OpenSSL 1.1.1 does not have SSLv2 support and therefore is not vulnerable to this issue. The underlying error is in the implementation of the RSA_padding_check_SSLv23() function. This also affects the RSA_SSLV23_PADDING padding mode used by various other functions. Although 1.1.1 does not support SSLv2 the RSA_padding_check_SSLv23() function still exists, as does the RSA_SSLV23_PADDING padding mode. Applications that directly call that function or use that padding mode will encounter this issue. However since there is no support for the SSLv2 protocol in 1.1.1 this is considered a bug and not a security issue in that version. OpenSSL 1.0.2 is out of support and no longer receiving public updates. Premium support customers of OpenSSL 1.0.2 should upgrade to 1.0.2y. Other users should upgrade to 1.1.1j. Fixed in OpenSSL 1.0.2y (Affected 1.0.2s-1.0.2x)."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.623289Z",
+      "updated_at": "2022-08-16T15:40:26.581532Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 196,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

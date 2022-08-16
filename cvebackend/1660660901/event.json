@@ -1,0 +1,165 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660660901",
+  "data": {
+    "annotation": {
+      "id": 22,
+      "result": [
+        {
+          "value": {
+            "start": 67,
+            "end": 106,
+            "text": "Cisco AnyConnect Secure Mobility Client",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "Y5ESUbk9V-",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 277,
+            "end": 294,
+            "text": "AnyConnect client",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "-o6geu2yeo",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T14:41:41.276010Z",
+      "updated_at": "2022-08-16T14:41:41.276036Z",
+      "lead_time": 26.653,
+      "prediction": {},
+      "result_count": 0,
+      "task": 22,
+      "completed_by": 2,
+      "parent_prediction": null,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 10,
+      "total_predictions_number": 0,
+      "total_annotations_number": 10,
+      "num_tasks_with_annotations": 10,
+      "useful_annotation_number": 10,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 12,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660660519",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 22,
+      "data": {
+        "cve": "CVE-2021-1366",
+        "description": "A vulnerability in the interprocess communication (IPC) channel of Cisco AnyConnect Secure Mobility Client for Windows could allow an authenticated, local attacker to perform a DLL hijacking attack on an affected device if the VPN Posture (HostScan) Module is installed on the AnyConnect client. This vulnerability is due to insufficient validation of resources that are loaded by the application at run time. An attacker could exploit this vulnerability by sending a crafted IPC message to the AnyConnect process. A successful exploit could allow the attacker to execute arbitrary code on the affected machine with SYSTEM privileges. To exploit this vulnerability, the attacker needs valid credentials on the Windows system."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.606463Z",
+      "updated_at": "2022-08-16T14:41:41.339511Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 22,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 0,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

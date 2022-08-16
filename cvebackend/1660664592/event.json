@@ -1,0 +1,348 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660664592",
+  "data": {
+    "annotation": {
+      "id": 210,
+      "result": [
+        {
+          "value": {
+            "start": 85,
+            "end": 89,
+            "text": "78.6",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "uo0XOYHMyI",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 304,
+            "end": 308,
+            "text": "78.7",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "ySDbGTEtWG",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 328,
+            "end": 332,
+            "text": "78.7",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "rvMdQrVIZf",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 58,
+            "end": 65,
+            "text": "Firefox",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "IbpvyGhBlO",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 66,
+            "end": 68,
+            "text": "84",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "lPfTjXwsaI",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 73,
+            "end": 84,
+            "text": "Firefox ESR",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "7pptxQYZyz",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 276,
+            "end": 283,
+            "text": "Firefox",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "jQtb_2KsAx",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 290,
+            "end": 301,
+            "text": "Thunderbird",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "1bmBs1OODS",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 314,
+            "end": 325,
+            "text": "Firefox ESR",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "bsVdYfGNeW",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T15:43:12.626563Z",
+      "updated_at": "2022-08-16T15:43:12.626605Z",
+      "lead_time": 23.674,
+      "prediction": {
+        "id": 131,
+        "model_version": "1660662222",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 7,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 0,
+              "text": "Mozilla"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 68,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 58,
+              "text": "Firefox 84"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 89,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 85,
+              "text": "78.6"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 308,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 304,
+              "text": "78.7"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 332,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 328,
+              "text": "78.7"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T15:42:48.859109Z",
+        "updated_at": "2022-08-16T15:42:48.859151Z",
+        "task": 209
+      },
+      "result_count": 0,
+      "task": 209,
+      "completed_by": 2,
+      "parent_prediction": 131,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 127,
+      "total_predictions_number": 131,
+      "total_annotations_number": 127,
+      "num_tasks_with_annotations": 127,
+      "useful_annotation_number": 127,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 82,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660662222",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 209,
+      "data": {
+        "cve": "CVE-2021-23964",
+        "description": "Mozilla developers reported memory safety bugs present in Firefox 84 and Firefox ESR 78.6. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 85, Thunderbird < 78.7, and Firefox ESR < 78.7."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.623922Z",
+      "updated_at": "2022-08-16T15:43:12.660206Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 209,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

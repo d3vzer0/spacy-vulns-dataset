@@ -1,0 +1,180 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660660971",
+  "data": {
+    "annotation": {
+      "id": 24,
+      "result": [
+        {
+          "value": {
+            "start": 38,
+            "end": 71,
+            "text": "Cisco ACI Multi-Site Orchestrator",
+            "labels": [
+              "COMPONENT"
+            ]
+          },
+          "id": "6gBM0fGhVx",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 95,
+            "end": 122,
+            "text": "Application Services Engine",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "S7EZ1jrB2G",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 571,
+            "end": 621,
+            "text": "Cisco Application Policy Infrastructure Controller",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "T5THUxHGRZ",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T14:42:51.660725Z",
+      "updated_at": "2022-08-16T14:42:51.660751Z",
+      "lead_time": 48.749,
+      "prediction": {},
+      "result_count": 0,
+      "task": 24,
+      "completed_by": 2,
+      "parent_prediction": null,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 12,
+      "total_predictions_number": 0,
+      "total_annotations_number": 12,
+      "num_tasks_with_annotations": 12,
+      "useful_annotation_number": 12,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 12,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660660519",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 24,
+      "data": {
+        "cve": "CVE-2021-1388",
+        "description": "A vulnerability in an API endpoint of Cisco ACI Multi-Site Orchestrator (MSO) installed on the Application Services Engine could allow an unauthenticated, remote attacker to bypass authentication on an affected device. The vulnerability is due to improper token validation on a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted request to the affected API. A successful exploit could allow the attacker to receive a token with administrator-level privileges that could be used to authenticate to the API on affected MSO and managed Cisco Application Policy Infrastructure Controller (APIC) devices."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.606566Z",
+      "updated_at": "2022-08-16T14:42:51.696279Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 24,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 0,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

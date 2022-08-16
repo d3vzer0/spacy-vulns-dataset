@@ -1,0 +1,204 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660663879",
+  "data": {
+    "annotation": {
+      "id": 177,
+      "result": [
+        {
+          "value": {
+            "start": 312,
+            "end": 316,
+            "text": "78.8",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "Bup1BMIQPC",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 336,
+            "end": 340,
+            "text": "78.8",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "-HXot6-DmE",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": true,
+      "ground_truth": false,
+      "created_at": "2022-08-16T15:31:19.927277Z",
+      "updated_at": "2022-08-16T15:31:19.927304Z",
+      "lead_time": 2.312,
+      "prediction": {
+        "id": 98,
+        "model_version": "1660662222",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 316,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 312,
+              "text": "78.8"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 340,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 336,
+              "text": "78.8"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T15:31:17.533028Z",
+        "updated_at": "2022-08-16T15:31:17.533065Z",
+        "task": 177
+      },
+      "result_count": 0,
+      "task": 177,
+      "completed_by": 2,
+      "parent_prediction": 98,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 99,
+      "total_predictions_number": 98,
+      "total_annotations_number": 99,
+      "num_tasks_with_annotations": 99,
+      "useful_annotation_number": 99,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 78,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660662222",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 177,
+      "data": {
+        "cve": "CVE-2021-23968",
+        "description": "If Content Security Policy blocked frame navigation, the full destination of a redirect served in the frame was reported in the violation report; as opposed to the original frame URI. This could be used to leak sensitive information contained in such URIs. This vulnerability affects Firefox < 86, Thunderbird < 78.8, and Firefox ESR < 78.8."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.622348Z",
+      "updated_at": "2022-08-16T15:31:19.963409Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "inner_id": 177,
+      "total_annotations": 0,
+      "cancelled_annotations": 1,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

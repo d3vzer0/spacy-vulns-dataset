@@ -1,0 +1,232 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660664538",
+  "data": {
+    "annotation": {
+      "id": 205,
+      "result": [
+        {
+          "value": {
+            "start": 9,
+            "end": 16,
+            "text": "ConnMan",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "TXNdLHUp17",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 24,
+            "end": 28,
+            "text": "1.39",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "sbfmGnncoS",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 0,
+            "end": 5,
+            "text": "gdhcp",
+            "labels": [
+              "COMPONENT"
+            ]
+          },
+          "id": "mlO5kuCBNE",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T15:42:18.826286Z",
+      "updated_at": "2022-08-16T15:42:18.826313Z",
+      "lead_time": 13.694,
+      "prediction": {
+        "id": 126,
+        "model_version": "1660662222",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 5,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 0,
+              "text": "gdhcp"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 16,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 9,
+              "text": "ConnMan"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 28,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 24,
+              "text": "1.39"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T15:42:05.020573Z",
+        "updated_at": "2022-08-16T15:42:05.020601Z",
+        "task": 204
+      },
+      "result_count": 0,
+      "task": 204,
+      "completed_by": 2,
+      "parent_prediction": 126,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 124,
+      "total_predictions_number": 126,
+      "total_annotations_number": 124,
+      "num_tasks_with_annotations": 124,
+      "useful_annotation_number": 124,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 80,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660662222",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 204,
+      "data": {
+        "cve": "CVE-2021-26676",
+        "description": "gdhcp in ConnMan before 1.39 could be used by network-adjacent attackers to leak sensitive stack information, allowing further exploitation of bugs in gdhcp."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.623684Z",
+      "updated_at": "2022-08-16T15:42:18.863267Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 204,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}
