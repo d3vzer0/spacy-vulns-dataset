@@ -1,0 +1,221 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660677422",
+  "data": {
+    "annotation": {
+      "id": 222,
+      "result": [
+        {
+          "value": {
+            "start": 39,
+            "end": 44,
+            "text": "JT2Go",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "E_-gDF1F-d",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 61,
+            "end": 70,
+            "text": "V13.1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "aGVC-wHA6N",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 73,
+            "end": 97,
+            "text": "Teamcenter Visualization",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "8dogOHq1Pr",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 114,
+            "end": 123,
+            "text": "V13.1.0.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "hp0UQFIzcU",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:17:01.960990Z",
+      "updated_at": "2022-08-16T19:17:01.961061Z",
+      "lead_time": 14.82,
+      "prediction": {
+        "id": 174,
+        "model_version": "1660676953",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 44,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 39,
+              "text": "JT2Go"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:16:47.014162Z",
+        "updated_at": "2022-08-16T19:16:47.014204Z",
+        "task": 221
+      },
+      "result_count": 0,
+      "task": 221,
+      "completed_by": 2,
+      "parent_prediction": 174,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 137,
+      "total_predictions_number": 174,
+      "total_annotations_number": 137,
+      "num_tasks_with_annotations": 137,
+      "useful_annotation_number": 137,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 84,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660676953",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 221,
+      "data": {
+        "cve": "CVE-2020-27001",
+        "description": "A vulnerability has been identified in JT2Go (All versions < V13.1.0.2), Teamcenter Visualization (All versions < V13.1.0.2). Affected applications lack proper validation of user-supplied data when parsing of PAR files. This could result in a stack based buffer overflow. An attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-12041)"
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.627063Z",
+      "updated_at": "2022-08-16T19:17:02.009249Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 221,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

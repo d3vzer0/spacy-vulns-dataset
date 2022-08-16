@@ -1,0 +1,204 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660679305",
+  "data": {
+    "annotation": {
+      "id": 429,
+      "result": [
+        {
+          "value": {
+            "start": 27,
+            "end": 56,
+            "text": "Mofi Network MOFI4500-4GXeLTE",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "AZ8BtE3SSp",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 57,
+            "end": 66,
+            "text": "4.0.8-std",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "GN8SXbD8GC",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:48:25.606784Z",
+      "updated_at": "2022-08-16T19:48:25.606809Z",
+      "lead_time": 2.103,
+      "prediction": {
+        "id": 381,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 56,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 27,
+              "text": "Mofi Network MOFI4500-4GXeLTE"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 66,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 57,
+              "text": "4.0.8-std"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:48:23.416328Z",
+        "updated_at": "2022-08-16T19:48:23.416353Z",
+        "task": 425
+      },
+      "result_count": 0,
+      "task": 425,
+      "completed_by": 2,
+      "parent_prediction": 381,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 311,
+      "total_predictions_number": 381,
+      "total_annotations_number": 311,
+      "num_tasks_with_annotations": 311,
+      "useful_annotation_number": 311,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 114,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 425,
+      "data": {
+        "cve": "CVE-2020-13856",
+        "description": "An issue was discovered on Mofi Network MOFI4500-4GXeLTE 4.0.8-std devices. Authentication is not required to download the support file that contains sensitive information such as cleartext credentials and password hashes."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.642660Z",
+      "updated_at": "2022-08-16T19:48:25.642109Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 425,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

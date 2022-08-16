@@ -1,0 +1,260 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660678382",
+  "data": {
+    "annotation": {
+      "id": 303,
+      "result": [
+        {
+          "value": {
+            "start": 31,
+            "end": 43,
+            "text": "Linux kernel",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "7s1sroQnQe",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 44,
+            "end": 48,
+            "text": "3.11",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "URODCqK9ZQ",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 57,
+            "end": 64,
+            "text": "5.10.16",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "8IpPMh8XQm",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 77,
+            "end": 80,
+            "text": "Xen",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "DPC52Qt1MS",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:33:02.475095Z",
+      "updated_at": "2022-08-16T19:33:02.475121Z",
+      "lead_time": 19.076,
+      "prediction": {
+        "id": 255,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 43,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 31,
+              "text": "Linux kernel"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 48,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 44,
+              "text": "3.11"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 64,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 57,
+              "text": "5.10.16"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 80,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 77,
+              "text": "Xen"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:32:43.228783Z",
+        "updated_at": "2022-08-16T19:32:43.228824Z",
+        "task": 301
+      },
+      "result_count": 0,
+      "task": 301,
+      "completed_by": 2,
+      "parent_prediction": 255,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 207,
+      "total_predictions_number": 255,
+      "total_annotations_number": 207,
+      "num_tasks_with_annotations": 207,
+      "useful_annotation_number": 207,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 94,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 301,
+      "data": {
+        "cve": "CVE-2021-26930",
+        "description": "An issue was discovered in the Linux kernel 3.11 through 5.10.16, as used by Xen. To service requests to the PV backend, the driver maps grant references provided by the frontend. In this process, errors may be encountered. In one case, an error encountered earlier might be discarded by later processing, resulting in the caller assuming successful mapping, and hence subsequent operations trying to access space that wasn't mapped. In another case, internal state would be insufficiently updated, preventing safe recovery from the error. This affects drivers/block/xen-blkback/blkback.c."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.633148Z",
+      "updated_at": "2022-08-16T19:33:02.508711Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 301,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

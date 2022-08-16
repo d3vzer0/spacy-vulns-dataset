@@ -1,0 +1,219 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660677406",
+  "data": {
+    "annotation": {
+      "id": 221,
+      "result": [
+        {
+          "value": {
+            "start": 3,
+            "end": 9,
+            "text": "Docker",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "6M7v41m02f",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 26,
+            "end": 33,
+            "text": "9.03.15",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "RQSSVjU0Vf",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 35,
+            "end": 42,
+            "text": "20.10.3",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "_EICnF_QUx",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:16:46.686641Z",
+      "updated_at": "2022-08-16T19:16:46.686675Z",
+      "lead_time": 5.423,
+      "prediction": {
+        "id": 173,
+        "model_version": "1660676953",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 9,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 3,
+              "text": "Docker"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 33,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 26,
+              "text": "9.03.15"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:16:41.120988Z",
+        "updated_at": "2022-08-16T19:16:41.121051Z",
+        "task": 220
+      },
+      "result_count": 0,
+      "task": 220,
+      "completed_by": 2,
+      "parent_prediction": 173,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 136,
+      "total_predictions_number": 173,
+      "total_annotations_number": 136,
+      "num_tasks_with_annotations": 136,
+      "useful_annotation_number": 136,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 84,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660676953",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 220,
+      "data": {
+        "cve": "CVE-2021-21285",
+        "description": "In Docker before versions 9.03.15, 20.10.3 there is a vulnerability in which pulling an intentionally malformed Docker image manifest crashes the dockerd daemon. Versions 20.10.3 and 19.03.15 contain patches that prevent the daemon from crashing."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.627014Z",
+      "updated_at": "2022-08-16T19:16:46.737848Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 220,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

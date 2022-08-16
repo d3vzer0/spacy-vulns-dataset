@@ -1,0 +1,277 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660678763",
+  "data": {
+    "annotation": {
+      "id": 350,
+      "result": [
+        {
+          "value": {
+            "start": 0,
+            "end": 12,
+            "text": "Lucee Server",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "QIp0ghxfP5",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 123,
+            "end": 134,
+            "text": "Lucee Admin",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "y0NyssMcri",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 334,
+            "end": 353,
+            "text": "Lucee Administrator",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "my7KuHeGhh",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 151,
+            "end": 159,
+            "text": "5.3.7.47",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "jmd_vzzdsV",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 161,
+            "end": 169,
+            "text": "5.3.6.68",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "yd9zkQUue1",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 173,
+            "end": 181,
+            "text": "5.3.5.96",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "1_7LXpcC3D",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:39:23.363807Z",
+      "updated_at": "2022-08-16T19:39:23.363833Z",
+      "lead_time": 27.186,
+      "prediction": {
+        "id": 302,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 12,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 0,
+              "text": "Lucee Server"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 134,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 123,
+              "text": "Lucee Admin"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 353,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 334,
+              "text": "Lucee Administrator"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:38:56.058407Z",
+        "updated_at": "2022-08-16T19:38:56.058435Z",
+        "task": 348
+      },
+      "result_count": 0,
+      "task": 348,
+      "completed_by": 2,
+      "parent_prediction": 302,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 251,
+      "total_predictions_number": 302,
+      "total_annotations_number": 251,
+      "num_tasks_with_annotations": 251,
+      "useful_annotation_number": 251,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 97,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 348,
+      "data": {
+        "cve": "CVE-2021-21307",
+        "description": "Lucee Server is a dynamic, Java based (JSR-223), tag and scripting language used for rapid web application development. In Lucee Admin before versions 5.3.7.47, 5.3.6.68 or 5.3.5.96 there is an unauthenticated remote code exploit. This is fixed in versions 5.3.7.47, 5.3.6.68 or 5.3.5.96. As a workaround, one can block access to the Lucee Administrator."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.636458Z",
+      "updated_at": "2022-08-16T19:39:23.397999Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 348,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

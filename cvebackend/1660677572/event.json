@@ -1,0 +1,204 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660677572",
+  "data": {
+    "annotation": {
+      "id": 239,
+      "result": [
+        {
+          "value": {
+            "start": 38,
+            "end": 56,
+            "text": "McAfee Web Gateway",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "q0UnEy92cO",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 72,
+            "end": 77,
+            "text": "9.2.8",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "iywHDiXseQ",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:19:32.856467Z",
+      "updated_at": "2022-08-16T19:19:32.856509Z",
+      "lead_time": 2.855,
+      "prediction": {
+        "id": 190,
+        "model_version": "1660676953",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 56,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 38,
+              "text": "McAfee Web Gateway"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 77,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 72,
+              "text": "9.2.8"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:19:29.856409Z",
+        "updated_at": "2022-08-16T19:19:29.856468Z",
+        "task": 238
+      },
+      "result_count": 0,
+      "task": 238,
+      "completed_by": 2,
+      "parent_prediction": 190,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 151,
+      "total_predictions_number": 190,
+      "total_annotations_number": 151,
+      "num_tasks_with_annotations": 151,
+      "useful_annotation_number": 151,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 87,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660676953",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 238,
+      "data": {
+        "cve": "CVE-2021-23885",
+        "description": "Privilege escalation vulnerability in McAfee Web Gateway (MWG) prior to 9.2.8 allows an authenticated user to gain elevated privileges through the User Interface and execute commands on the appliance via incorrect improper neutralization of user input in the troubleshooting page."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.627888Z",
+      "updated_at": "2022-08-16T19:19:32.919548Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 238,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

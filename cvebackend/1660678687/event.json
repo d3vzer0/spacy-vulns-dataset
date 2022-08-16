@@ -1,0 +1,353 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660678687",
+  "data": {
+    "annotation": {
+      "id": 340,
+      "result": [
+        {
+          "value": {
+            "start": 0,
+            "end": 9,
+            "text": "Overlayfs",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "qSu3w7P4YQ",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 390,
+            "end": 394,
+            "text": "4.19",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "52GNnsOKA8",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 471,
+            "end": 474,
+            "text": "5.8",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "Ax1mBjqEZY",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 806,
+            "end": 809,
+            "text": "5.8",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "gbgJY_ZECq",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 1126,
+            "end": 1130,
+            "text": "5.11",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "S_rb60jIy6",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:38:07.687902Z",
+      "updated_at": "2022-08-16T19:38:07.687928Z",
+      "lead_time": 19.701,
+      "prediction": {
+        "id": 292,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 9,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 0,
+              "text": "Overlayfs"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 381,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 375,
+              "text": "kernel"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 394,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 390,
+              "text": "4.19"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 462,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 456,
+              "text": "kernel"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 474,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 471,
+              "text": "5.8"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 805,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 799,
+              "text": "kernel"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 809,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 806,
+              "text": "5.8"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1113,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 1103,
+              "text": "O_NOATIMEi"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1125,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 1119,
+              "text": "kernel"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 1130,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 1126,
+              "text": "5.11"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:37:47.871176Z",
+        "updated_at": "2022-08-16T19:37:47.871203Z",
+        "task": 338
+      },
+      "result_count": 0,
+      "task": 338,
+      "completed_by": 2,
+      "parent_prediction": 292,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 241,
+      "total_predictions_number": 292,
+      "total_annotations_number": 241,
+      "num_tasks_with_annotations": 241,
+      "useful_annotation_number": 241,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 97,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 338,
+      "data": {
+        "cve": "CVE-2020-16120",
+        "description": "Overlayfs did not properly perform permission checking when copying up files in an overlayfs and could be exploited from within a user namespace, if, for example, unprivileged user namespaces were allowed. It was possible to have a file not readable by an unprivileged user to be copied to a mountpoint controlled by the user, like a removable device. This was introduced in kernel version 4.19 by commit d1d04ef (\"ovl: stack file ops\"). This was fixed in kernel version 5.8 by commits 56230d9 (\"ovl: verify permissions in ovl_path_open()\"), 48bd024 (\"ovl: switch to mounter creds in readdir\") and 05acefb (\"ovl: check permission to open real file\"). Additionally, commits 130fdbc (\"ovl: pass correct flags for opening real directory\") and 292f902 (\"ovl: call secutiry hook in ovl_real_ioctl()\") in kernel 5.8 might also be desired or necessary. These additional commits introduced a regression in overlay mounts within user namespaces which prevented access to files with ownership outside of the user namespace. This regression was mitigated by subsequent commit b6650da (\"ovl: do not fail because of O_NOATIMEi\") in kernel 5.11."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.635322Z",
+      "updated_at": "2022-08-16T19:38:07.722959Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 338,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

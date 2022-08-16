@@ -1,0 +1,486 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660678970",
+  "data": {
+    "annotation": {
+      "id": 386,
+      "result": [
+        {
+          "value": {
+            "start": 4,
+            "end": 18,
+            "text": "vSphere Client",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "RjY3z6oxen",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 347,
+            "end": 350,
+            "text": "7.x",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "XNJjrNgYoF",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 358,
+            "end": 365,
+            "text": "7.0 U1c",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "KAP1ysI8hq",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 367,
+            "end": 370,
+            "text": "6.7",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "UcQBNDLzv6",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 378,
+            "end": 385,
+            "text": "6.7 U3l",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "UZvkhEp_t_",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 390,
+            "end": 393,
+            "text": "6.5",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "HAr5KZNRvC",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 401,
+            "end": 408,
+            "text": "6.5 U3n",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "Hd0jrfupxv",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 439,
+            "end": 442,
+            "text": "4.x",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "mcVNF66f_G",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 450,
+            "end": 453,
+            "text": "4.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "jfEUIqKi4O",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 458,
+            "end": 461,
+            "text": "3.x",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "ZGzN-6Ck_k",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 469,
+            "end": 477,
+            "text": "3.10.1.2",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "d9i038pdUl",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 324,
+            "end": 346,
+            "text": "VMware vCenter Server ",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "gxDEGHHXyD",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 414,
+            "end": 437,
+            "text": "VMware Cloud Foundation",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "W5PXu3YOXB",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:42:50.137839Z",
+      "updated_at": "2022-08-16T19:42:50.137874Z",
+      "lead_time": 19.832,
+      "prediction": {
+        "id": 338,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 18,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 4,
+              "text": "vSphere Client"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 350,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 347,
+              "text": "7.x"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 365,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 358,
+              "text": "7.0 U1c"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 370,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 367,
+              "text": "6.7"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 385,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 378,
+              "text": "6.7 U3l"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 393,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 390,
+              "text": "6.5"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 408,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 401,
+              "text": "6.5 U3n"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 442,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 439,
+              "text": "4.x"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 453,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 450,
+              "text": "4.2"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 461,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 458,
+              "text": "3.x"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 477,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 469,
+              "text": "3.10.1.2"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:42:30.192497Z",
+        "updated_at": "2022-08-16T19:42:30.192531Z",
+        "task": 383
+      },
+      "result_count": 0,
+      "task": 383,
+      "completed_by": 2,
+      "parent_prediction": 338,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 278,
+      "total_predictions_number": 338,
+      "total_annotations_number": 278,
+      "num_tasks_with_annotations": 278,
+      "useful_annotation_number": 278,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 105,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 383,
+      "data": {
+        "cve": "CVE-2021-21973",
+        "description": "The vSphere Client (HTML5) contains an SSRF (Server Side Request Forgery) vulnerability due to improper validation of URLs in a vCenter Server plugin. A malicious actor with network access to port 443 may exploit this issue by sending a POST request to vCenter Server plugin leading to information disclosure. This affects: VMware vCenter Server (7.x before 7.0 U1c, 6.7 before 6.7 U3l and 6.5 before 6.5 U3n) and VMware Cloud Foundation (4.x before 4.2 and 3.x before 3.10.1.2)."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.640612Z",
+      "updated_at": "2022-08-16T19:42:50.174792Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 383,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

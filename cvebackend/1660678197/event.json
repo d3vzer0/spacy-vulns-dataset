@@ -1,0 +1,232 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660678197",
+  "data": {
+    "annotation": {
+      "id": 276,
+      "result": [
+        {
+          "value": {
+            "start": 594,
+            "end": 607,
+            "text": "6.5.1RC2.B060",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "buf7cw8SiD",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 624,
+            "end": 637,
+            "text": "6.5.1RC2.B080",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "MCuoA9dUCh",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 34,
+            "end": 62,
+            "text": "Huawei Gauss100 OLTP Product",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "RtM4gu14et",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:29:57.110059Z",
+      "updated_at": "2022-08-16T19:29:57.110093Z",
+      "lead_time": 10.989,
+      "prediction": {
+        "id": 228,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 62,
+              "labels": [
+                "COMPONENT"
+              ],
+              "start": 34,
+              "text": "Huawei Gauss100 OLTP Product"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 607,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 594,
+              "text": "6.5.1RC2.B060"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 637,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 624,
+              "text": "6.5.1RC2.B080"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:29:45.992679Z",
+        "updated_at": "2022-08-16T19:29:45.992720Z",
+        "task": 275
+      },
+      "result_count": 0,
+      "task": 275,
+      "completed_by": 2,
+      "parent_prediction": 228,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 188,
+      "total_predictions_number": 228,
+      "total_annotations_number": 188,
+      "num_tasks_with_annotations": 188,
+      "useful_annotation_number": 188,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 87,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 275,
+      "data": {
+        "cve": "CVE-2021-22298",
+        "description": "There is a logic vulnerability in Huawei Gauss100 OLTP Product. An attacker with certain permissions could perform specific SQL statement to exploit this vulnerability. Due to insufficient security design, successful exploit can cause service abnormal. Affected product versions include: ManageOne versions 6.5.1.1.B020, 6.5.1.1.B030, 6.5.1.1.B040, 6.5.1.SPC100.B050, 6.5.1.SPC101.B010, 6.5.1.SPC101.B040, 6.5.1.SPC200, 6.5.1.SPC200.B010, 6.5.1.SPC200.B030, 6.5.1.SPC200.B040, 6.5.1.SPC200.B050, 6.5.1.SPC200.B060, 6.5.1.SPC200.B070, 6.5.1RC1.B070, 6.5.1RC1.B080, 6.5.1RC2.B040, 6.5.1RC2.B050, 6.5.1RC2.B060, 6.5.1RC2.B070, 6.5.1RC2.B080, 6.5.1RC2.B090."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.629712Z",
+      "updated_at": "2022-08-16T19:29:57.154671Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 275,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

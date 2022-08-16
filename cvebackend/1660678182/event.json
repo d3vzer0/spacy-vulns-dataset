@@ -1,0 +1,359 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660678182",
+  "data": {
+    "annotation": {
+      "id": 274,
+      "result": [
+        {
+          "value": {
+            "start": 21,
+            "end": 42,
+            "text": "Atlassian Jira Server",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "XSF7LCnk1t",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 275,
+            "end": 281,
+            "text": "8.5.11",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "5xi0TqE1gK",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 296,
+            "end": 301,
+            "text": "8.6.0",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "35cEla3E4d",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 309,
+            "end": 315,
+            "text": "8.13.3",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "nLQ4oZMNz9",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 334,
+            "end": 340,
+            "text": "8.14.0",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "vswiZzIvkW",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 348,
+            "end": 354,
+            "text": "8.15.0",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "AmRQt1b7Gg",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 175,
+            "end": 198,
+            "text": "ViewWorkflowSchemes.jsp",
+            "labels": [
+              "COMPONENT"
+            ]
+          },
+          "id": "2yT5sJKX0o",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 204,
+            "end": 222,
+            "text": "ListWorkflows.jspa",
+            "labels": [
+              "COMPONENT"
+            ]
+          },
+          "id": "s_y0DZUQOH",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:29:41.922645Z",
+      "updated_at": "2022-08-16T19:29:41.922680Z",
+      "lead_time": 15.473,
+      "prediction": {
+        "id": 226,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 42,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 21,
+              "text": "Atlassian Jira Server"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 199,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 175,
+              "text": "ViewWorkflowSchemes.jspa"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 281,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 275,
+              "text": "8.5.11"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 301,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 296,
+              "text": "8.6.0"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 315,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 309,
+              "text": "8.13.3"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 340,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 334,
+              "text": "8.14.0"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 354,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 348,
+              "text": "8.15.0"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:29:26.237674Z",
+        "updated_at": "2022-08-16T19:29:26.237715Z",
+        "task": 273
+      },
+      "result_count": 0,
+      "task": 273,
+      "completed_by": 2,
+      "parent_prediction": 226,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 186,
+      "total_predictions_number": 226,
+      "total_annotations_number": 186,
+      "num_tasks_with_annotations": 186,
+      "useful_annotation_number": 186,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 87,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 273,
+      "data": {
+        "cve": "CVE-2020-36236",
+        "description": "Affected versions of Atlassian Jira Server and Data Center allow remote attackers to inject arbitrary HTML or JavaScript via a Cross-Site Scripting (XSS) vulnerability in the ViewWorkflowSchemes.jspa and ListWorkflows.jspa endpoints. The affected versions are before version 8.5.11, from version 8.6.0 before 8.13.3, and from version 8.14.0 before 8.15.0."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.629613Z",
+      "updated_at": "2022-08-16T19:29:41.969397Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 273,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

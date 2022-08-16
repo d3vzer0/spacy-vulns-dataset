@@ -1,0 +1,222 @@
+{
+  "event": "ANNOTATION_UPDATED",
+  "job_id": "1660678425",
+  "data": {
+    "annotation": {
+      "id": 306,
+      "result": [
+        {
+          "value": {
+            "start": 4,
+            "end": 14,
+            "text": "PostgreSQL",
+            "labels": [
+              "COMPONENT"
+            ]
+          },
+          "id": "EqPHfyYDsM",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 26,
+            "end": 39,
+            "text": "Active Record",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "sLNmXDOBgm",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 47,
+            "end": 54,
+            "text": "6.1.2.1",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "TJNnBQlFEu",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 56,
+            "end": 63,
+            "text": "6.0.3.5",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "aGcZVbWRPN",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 65,
+            "end": 72,
+            "text": "5.2.4.5",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "-pBHFlA8iV",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:33:40.625130Z",
+      "updated_at": "2022-08-16T19:33:45.406286Z",
+      "lead_time": 23.98,
+      "prediction": {
+        "id": 258,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:33:18.539087Z",
+        "updated_at": "2022-08-16T19:33:18.539114Z",
+        "task": 304
+      },
+      "result_count": 0,
+      "task": 304,
+      "completed_by": 2,
+      "parent_prediction": 258,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 210,
+      "total_predictions_number": 259,
+      "total_annotations_number": 210,
+      "num_tasks_with_annotations": 210,
+      "useful_annotation_number": 210,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 94,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 304,
+      "data": {
+        "cve": "CVE-2021-22880",
+        "description": "The PostgreSQL adapter in Active Record before 6.1.2.1, 6.0.3.5, 5.2.4.5 suffers from a regular expression denial of service (REDoS) vulnerability. Carefully crafted input can cause the input validation in the `money` type of the PostgreSQL adapter in Active Record to spend too much time in a regular expression, resulting in the potential for a DoS attack. This only impacts Rails applications that are using PostgreSQL along with money type columns that take user input."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.633300Z",
+      "updated_at": "2022-08-16T19:33:45.429148Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 304,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

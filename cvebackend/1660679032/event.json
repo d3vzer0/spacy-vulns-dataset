@@ -1,0 +1,374 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660679032",
+  "data": {
+    "annotation": {
+      "id": 396,
+      "result": [
+        {
+          "value": {
+            "start": 31,
+            "end": 35,
+            "text": "RCP+",
+            "labels": [
+              "COMPONENT"
+            ]
+          },
+          "id": "15cVOvJqE3",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 50,
+            "end": 79,
+            "text": "Bosch Video Recording Manager",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "hQAWzz3eLJ",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 338,
+            "end": 342,
+            "text": "3.70",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "phLydh_Y-9",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 433,
+            "end": 438,
+            "text": "v3.81",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "adv8OUk9Le",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 452,
+            "end": 465,
+            "text": "DIVAR IP 5000",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "Zs0XPflr_U",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 466,
+            "end": 470,
+            "text": "3.80",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "-WYZGWbWWs",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 441,
+            "end": 450,
+            "text": "3.81.0050",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "W5ZO8o3BYz",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 397,
+            "end": 400,
+            "text": "VRM",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "YezuTMroPj",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        },
+        {
+          "value": {
+            "start": 484,
+            "end": 488,
+            "text": "BVMS",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "mSJ4rSk-bx",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "manual"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:43:52.395186Z",
+      "updated_at": "2022-08-16T19:43:52.395211Z",
+      "lead_time": 18.819,
+      "prediction": {
+        "id": 348,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 35,
+              "labels": [
+                "COMPONENT"
+              ],
+              "start": 31,
+              "text": "RCP+"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 79,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 50,
+              "text": "Bosch Video Recording Manager"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 342,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 338,
+              "text": "3.70"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 438,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 433,
+              "text": "v3.81"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 450,
+              "labels": [
+                "COMPONENT"
+              ],
+              "start": 441,
+              "text": "3.81.0050"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 465,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 452,
+              "text": "DIVAR IP 5000"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 470,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 466,
+              "text": "3.80"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:43:33.445854Z",
+        "updated_at": "2022-08-16T19:43:33.445881Z",
+        "task": 393
+      },
+      "result_count": 0,
+      "task": 393,
+      "completed_by": 2,
+      "parent_prediction": 348,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 287,
+      "total_predictions_number": 348,
+      "total_annotations_number": 287,
+      "num_tasks_with_annotations": 287,
+      "useful_annotation_number": 287,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 106,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 393,
+      "data": {
+        "cve": "CVE-2019-11684",
+        "description": "Improper Access Control in the RCP+ server of the Bosch Video Recording Manager (VRM) component allows arbitrary and unauthenticated access to a limited subset of certificates, stored in the underlying Microsoft Windows operating system. The fixed versions implement modified authentication checks. Prior releases of VRM software version 3.70 are considered unaffected. This vulnerability affects VRM v3.70.x, v3.71 < v3.71.0034 and v3.81 < 3.81.0050; DIVAR IP 5000 3.80 < 3.80.0039; BVMS all versions using VRM."
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.641089Z",
+      "updated_at": "2022-08-16T19:43:52.429019Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 393,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}

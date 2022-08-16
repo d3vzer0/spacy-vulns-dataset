@@ -1,0 +1,260 @@
+{
+  "event": "ANNOTATION_CREATED",
+  "job_id": "1660678731",
+  "data": {
+    "annotation": {
+      "id": 347,
+      "result": [
+        {
+          "value": {
+            "start": 39,
+            "end": 44,
+            "text": "JT2Go",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "J6W1nC7K4B",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 61,
+            "end": 70,
+            "text": "V13.1.0.1",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "9nH0YnvZ6X",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 73,
+            "end": 97,
+            "text": "Teamcenter Visualization",
+            "labels": [
+              "PRODUCT"
+            ]
+          },
+          "id": "x3tL1SHCbB",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        },
+        {
+          "value": {
+            "start": 114,
+            "end": 123,
+            "text": "V13.1.0.1",
+            "labels": [
+              "VERSION"
+            ]
+          },
+          "id": "5BG2LoqlA9",
+          "from_name": "label",
+          "to_name": "text",
+          "type": "labels",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2022-08-16T19:38:51.891757Z",
+      "updated_at": "2022-08-16T19:38:51.891783Z",
+      "lead_time": 2.589,
+      "prediction": {
+        "id": 299,
+        "model_version": "1660677679",
+        "created_ago": "0\u00a0minutes",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 44,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 39,
+              "text": "JT2Go"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 70,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 61,
+              "text": "V13.1.0.1"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 97,
+              "labels": [
+                "PRODUCT"
+              ],
+              "start": 73,
+              "text": "Teamcenter Visualization"
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 123,
+              "labels": [
+                "VERSION"
+              ],
+              "start": 114,
+              "text": "V13.1.0.1"
+            }
+          }
+        ],
+        "score": null,
+        "cluster": null,
+        "neighbors": null,
+        "mislabeling": 0.0,
+        "created_at": "2022-08-16T19:38:49.181269Z",
+        "updated_at": "2022-08-16T19:38:49.181297Z",
+        "task": 345
+      },
+      "result_count": 0,
+      "task": 345,
+      "completed_by": 2,
+      "parent_prediction": 299,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 5,
+      "task_number": 1456,
+      "finished_task_number": 248,
+      "total_predictions_number": 299,
+      "total_annotations_number": 248,
+      "num_tasks_with_annotations": 248,
+      "useful_annotation_number": 248,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 97,
+      "title": "New Project #1",
+      "description": "",
+      "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    \n    \n    \n    \n  <Label value=\"VERSION\" background=\"#FFA39E\"/><Label value=\"PRODUCT\" background=\"#D4380D\"/><Label value=\"ORG\" background=\"#FFC069\"/><Label value=\"COMPONENT\" background=\"#AD8B00\"/></Labels>\n\n  <Text name=\"text\" value=\"$description\"/>\n</View>",
+      "parsed_label_config": {
+        "label": {
+          "type": "Labels",
+          "to_name": [
+            "text"
+          ],
+          "inputs": [
+            {
+              "type": "Text",
+              "value": "description"
+            }
+          ],
+          "labels": [
+            "VERSION",
+            "PRODUCT",
+            "ORG",
+            "COMPONENT"
+          ],
+          "labels_attrs": {
+            "VERSION": {
+              "value": "VERSION",
+              "background": "#FFA39E"
+            },
+            "PRODUCT": {
+              "value": "PRODUCT",
+              "background": "#D4380D"
+            },
+            "ORG": {
+              "value": "ORG",
+              "background": "#FFC069"
+            },
+            "COMPONENT": {
+              "value": "COMPONENT",
+              "background": "#AD8B00"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": true,
+      "token": "25ceb21380e76ce8",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "label": {
+          "overall": 1.0,
+          "type": "Labels",
+          "labels": {
+            "VERSION": 1.0,
+            "PRODUCT": 1.0,
+            "ORG": 1.0,
+            "COMPONENT": 1.0
+          }
+        }
+      },
+      "model_version": "1660677679",
+      "data_types": {
+        "description": "Text"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2022-08-16T13:12:46.068294Z",
+      "updated_at": "2022-08-16T14:36:41.186408Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "organization": 1,
+      "created_by": 2
+    },
+    "task": {
+      "id": 345,
+      "data": {
+        "cve": "CVE-2020-27006",
+        "description": "A vulnerability has been identified in JT2Go (All versions < V13.1.0.1), Teamcenter Visualization (All versions < V13.1.0.1). Affected applications lack proper validation of user-supplied data when parsing of PCT files. This could result in a memory corruption condition. An attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-12182)"
+      },
+      "meta": {},
+      "created_at": "2022-08-16T13:12:57.636308Z",
+      "updated_at": "2022-08-16T19:38:51.926622Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 345,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "project": 5,
+      "updated_by": 2,
+      "file_upload": 6
+    }
+  }
+}
