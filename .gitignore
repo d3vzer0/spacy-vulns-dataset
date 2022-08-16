@@ -1,6 +1,7 @@
-ner/
-tok2vec/
-vocab/
+**/ner/
+**/tok2vec/
+**/vocab/
+cvebackend/latest-model/
 tokenizer
 
 # Byte-compiled / optimized / DLL files
